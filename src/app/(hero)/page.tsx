@@ -1,5 +1,6 @@
-import { Metadata } from 'next';
 import React from 'react'
+import { Metadata } from 'next'
+import { Button } from 'antd';
 
 /**
  * 定义页面元数据
@@ -11,6 +12,9 @@ export const metadata: Metadata = {
 
 export default function Page() {
   return (
-    <div>首页</div>
+    <div>
+      <div>首页</div>
+      <Button type="primary">按钮</Button>
+    </div>
   )
 }

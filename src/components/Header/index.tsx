@@ -16,6 +16,10 @@ const menu = [
   {
     name: 'About',
     to:'/about'
+  },
+  {
+    name: '并行路由',
+    to:'/parallel'
   }
 ]
 
