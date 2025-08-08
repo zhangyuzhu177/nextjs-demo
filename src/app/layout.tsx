@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
-import { Ma_Shan_Zheng } from "next/font/google";
+import { Geist } from "next/font/google";
 import "./globals.css";
 
-const geist = Ma_Shan_Zheng({
-  weight:'400'
+const geist = Geist({
+  subsets: ["latin"],
 });
 
 export const metadata: Metadata = {
