@@ -12,7 +12,7 @@ export default function ParallelLayout({
   
   return (
     <div className="w-[800px] h-full flex flex-col gap-4">
-      <div>
+      <div className="flex gap-4">
         <Link href="/parallel">parallel</Link>
         <Link href="/parallel/test">test</Link>
       </div>

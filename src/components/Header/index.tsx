@@ -9,18 +9,6 @@ const menu = [
     name: 'Article',
     to:'/article'
   },
-  {
-    name: 'Gallery',
-    to:'/gallery'
-  },
-  {
-    name: 'About',
-    to:'/about'
-  },
-  {
-    name: '并行路由',
-    to:'/parallel'
-  }
 ]
 
 export default function Header() {
